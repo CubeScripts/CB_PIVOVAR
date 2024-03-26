@@ -1,0 +1,22 @@
+['raisin'] = {
+		label = 'Chmel',
+		weight = 10,
+		stack = true
+},
+['dirty_bottle'] = {
+		label = 'Spinavé lahve',
+		weight = 50,
+		stack = true
+},
+['cisty_lahve'] = {
+		label = 'Čiste lahve',
+		weight = 40,
+		stack = true 
+},
+
+['zpracovany_chmel'] = {
+        label = 'Zpracovany chmel',
+        weight = 10,
+        stack = true,
+        close = false,
+},
