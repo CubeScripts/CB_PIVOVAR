@@ -91,7 +91,7 @@ ox_target:addSphereZone({
                         if lib.progressCircle({
                           duration = 18000,
                           position = 'bottom',
-                          label = 'Zpracováváš suroviny',
+                          label = 'Umývaš lahve',
                           useWhileDead = false,
                           canCancel = true,
                           disable = {
