@@ -20,3 +20,17 @@
         stack = true,
         close = false,
 },
+
+['beer2'] = {
+		label = 'Plzen',
+		weight = 250,
+		stack = true,
+		consume = 0.50, 
+		client = {
+			label = "Piješ...",
+			status = { drunk = 120000, thirst = 85000 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = { model = 'prop_amb_beer_bottle', bone = 57005, pos = vec3(0.09, -0.12, -0.07), rot = vec3(-79.0, 42.0, -7.0) },
+			usetime = 11500,
+		}
+	},
