@@ -2,7 +2,7 @@ lib.locale()
 local target = exports.ox_target
 local inventory = exports.ox_inventory
 local item = exports.ox_inventory:Items()
-
+-- my resource teest
 
 target:addSphereZone({ 
     coords = vector3(-458.19, 264.41, 83.15), 
